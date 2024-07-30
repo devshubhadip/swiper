@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smotthing: antialiased;
+  transition: all 0.5s ease;
+}
+
+html,body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+input,
+textarea {
+  outline: none !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus,
+button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span,
+button {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.f-bold{
+    font-weight: 900;
+}
+.bold{
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+p {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+span,
+button{
+  font-family: 'Raleway', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 600 !important;
+}
+a{
+  color: #0b7443;;
+}
+.swiperjs{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.swiper {
+  width: 240px;
+  height: 280px;
+}
+.box img{
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: 1px 1px 5px 1px rgba(72, 72, 72, 0.75);
+text-align: center;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: r#fff;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color:#fff;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color:#fff;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color : #fff;
+}
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  position: absolute;
+  left: -25rem;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  position: absolute;
+  right: -25rem;
+}
+
+.swiper-button-prev::before, .swiper-button-next::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: black; /* Change color as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev::before {
+  right: 100%; /* Position the line to the left of the prev button */
+  margin-right: 20px; /* Adjust spacing between line and button */
+}
+
+.swiper-button-next::before {
+  left: 100%; /* Position the line to the right of the next button */
+  margin-left: 20px; /* Adjust spacing between line and button */
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  display: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  display: none;
+}

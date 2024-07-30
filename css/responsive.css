@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1400px) {
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    position: absolute;
+    left: -15rem;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    position: absolute;
+    right: -15rem;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+ 
+}
+
+@media only screen and (max-width: 992px) {
+    
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    position: absolute;
+    left: -5rem;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    position: absolute;
+    right: -5rem;
+  }
+
+      
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   
+
+
+
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    position: absolute;
+    left: -3rem;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    position: absolute;
+    right: -3rem;
+  }
+
+  .swiper {
+    width: 200px;
+    height: 240px;
+  }
+  .box img{
+    height: 180px;
+    width: 160px;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev::before, .swiper-button-next::before {
+    width: 20px;
+  
+  }
+ 
+}
+
+
+@media only screen and (max-width:490px) {
+ 
+
+    
+
+}
